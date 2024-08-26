@@ -126,6 +126,10 @@ nav ul li{
     margin-bottom: 12px;
 }
 /*Fim da programação da segunda imagem da nav*/
+.hamburguer-button {
+    visibility: hidden;
+  }
+
 /*FIM DA PROGRAMAÇÃO DA NAV*/
 
 /*INICIO DA PROGRAMAÇÃO DA TELA HOME*/
@@ -1061,12 +1065,17 @@ nav ul li{
 
 
 /*INICIO DA PROGRAMAÇÃO  DA RESPONSIVIDADE*/
-@media screen and (min-width: 723px) and (max-width: 1194px) {
+@media screen and (min-width: 724px) and (max-width: 1194px) {
     body{
         background-color: #1D40D6;
     }
     .cabecalho {
         height: 40px; /* Altura reduzida para telas menores */
+      }
+
+      #nav{
+        width:100% ;
+        height: 60px;
       }
       #nav ul {
         display: none; /* Esconder lista de itens em telas menores */
@@ -1075,31 +1084,107 @@ nav ul li{
         display: none; /* Esconder links em telas menores */
       }
       #logo {
-        width: 134.69px;
-        height: 47px;
-        margin-top: 7;
-        margin-bottom: 6px;
+        width: 117px;
+        height: 40.83px;
+        margin-top: 10px;
+        margin-bottom: 9.17px;
         display: flex;
-        margin-left: 127px;
+        margin-left: 126px;
       }
       #icone {
         width: 47px;
         height: 35px;
-        margin-right: 260px;
+        margin-right: 3px;
         margin-top: 13px;
         margin-bottom: 12px;
+        margin-left: 700px;
       }
-    #home{
-        width: 317.84px;
-        height: 175.06px;
-        margin-left: 242px;
-        font-size: 30px;
-        flex-wrap: nowrap;
+      .hamburguer-button {
+        visibility: visible;
+        top: 17px;
+        right: 27px;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        margin-right: 126px;
+        
+      }
+      #hamburguer-button img {
+        width: 26px;
+        height: 26px;
+      }
+
+      .home{
+        display: flex;
     }
+    /*fim da programação da div*/
+    
+    /*Programação da div que contem os titulos e os botões nomeada como id "home"*/
+    #home{
+        margin-top: 200px;
+        margin-left:  151px;
+        font-size: 40px;
+        font-family: 'RalewayBold';
+    }
+    /*Fim da programação da div*/
+    
+    /*Programação da palavra solução (devido ao seu degrade)*/
+    #solução{
+        margin-left: 19px;
+        background: linear-gradient(  to left, #6200EA, #A452FF);    
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: transparent;
+    }
+    /*Fim da programção da palavra*/
+    
+    /*Programação da div que contem oa 2 palavras (para seu alinhamento) nomeada como "titulo"*/
+    #titulo1{
+        display: flex;
+        margin-bottom: 0%;
+    }
+    /*Fim da programação da div*/
+    
+    /*Programação da div que contem os 2 botões*/
+    #btns{
+        margin-top: 27px;
+        display: flex;
+    }
+    /*Fim da programação da div*/
+    
+    /*Programação do primeiro botão*/
+    #btn1{
+        border-radius: 60px;
+        width: 227.25px;
+        height: 49.12px;
+        margin-right: 25.17px;
+        font-size: 18px;
+        color: #FFFFFF;
+        font-family: 'RalewayBold';
+        background-color: #000000;
+        border: solid 2px;
+    }
+    /*Fim da programação do botão*/
+    
+    /*Programação do segundo botão*/
+    #btn2{
+        border-radius: 60px;
+        width: 171.58px;
+        height: 49.12px;
+        font-size: 18px;
+        font-family: 'RalewayBold';
+        border: solid 2px;
+        background-color: #F8F8FF;
+    }
+    /*Fim da programação do botão*/
+    
+    /*Programação da imagem da home nomeada como "img1"*/
     #img1{
-        width: 543.03px;
-        height: 433.99px;
-        margin-right: 115px;
+        width: 750px;
+        height: 609px;
+        margin-top: 100px;
+        margin-right: 50px;
+        margin-left: 30px;
     }
 
 }
