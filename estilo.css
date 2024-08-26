@@ -1060,4 +1060,46 @@ nav ul li{
 /*Fim da programação da linha*/
 
 
+/*INICIO DA PROGRAMAÇÃO  DA RESPONSIVIDADE*/
+@media screen and (min-width: 723px) and (max-width: 1194px) {
+    body{
+        background-color: #1D40D6;
+    }
+    .cabecalho {
+        height: 40px; /* Altura reduzida para telas menores */
+      }
+      #nav ul {
+        display: none; /* Esconder lista de itens em telas menores */
+      }
+      #nav li a {
+        display: none; /* Esconder links em telas menores */
+      }
+      #logo {
+        width: 134.69px;
+        height: 47px;
+        margin-top: 7;
+        margin-bottom: 6px;
+        display: flex;
+        margin-left: 127px;
+      }
+      #icone {
+        width: 47px;
+        height: 35px;
+        margin-right: 260px;
+        margin-top: 13px;
+        margin-bottom: 12px;
+      }
+    #home{
+        width: 317.84px;
+        height: 175.06px;
+        margin-left: 242px;
+        font-size: 30px;
+        flex-wrap: nowrap;
+    }
+    #img1{
+        width: 543.03px;
+        height: 433.99px;
+        margin-right: 115px;
+    }
 
+}
