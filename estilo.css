@@ -67,6 +67,12 @@ body {
 }
 /* Fim da programação da nav nomeada como "nav"*/
 
+/*Programação do icone secundario que será ultilizado na responsividade*/
+#iconeS{
+    visibility: hidden;
+}
+/*Fim da programação do icone secundario*/
+
 /*Programação da imagem logo na nav nomeada como "logo"*/
 #logo{
     width: 134.69px;
@@ -207,6 +213,12 @@ nav ul li{
     margin-left: 30px;
 }
 /*Fim da programação da img*/
+
+/*Programação do botão de orçamento secundario que será utilizado na responsividade*/
+#btn1S{
+    visibility: hidden;
+}
+/*Fim da programação do botão*/
 /*FIM DA PROGRAMAÇÃO DA TELA HOME*/
 
 /*INICIO DA PROGRAMAÇÃO DA TELA QMSOMOS*/
@@ -1065,23 +1077,28 @@ nav ul li{
 
 
 /*INICIO DA PROGRAMAÇÃO  DA RESPONSIVIDADE*/
-@media screen and (min-width: 724px) and (max-width: 1194px) {
+@media screen and (min-width:1001px) and (max-width: 1920px) {
+    
+
+}
+
+@media screen and (min-width:890px) and (max-width: 1000px) {
     body{
-        background-color: #1D40D6;
+        background-color: #cad61d;
     }
     .cabecalho {
-        height: 40px; /* Altura reduzida para telas menores */
+        height: 40px; 
       }
-
+    
       #nav{
         width:100% ;
         height: 60px;
       }
       #nav ul {
-        display: none; /* Esconder lista de itens em telas menores */
+        display: none;
       }
       #nav li a {
-        display: none; /* Esconder links em telas menores */
+        display: none; 
       }
       #logo {
         width: 117px;
@@ -1089,7 +1106,7 @@ nav ul li{
         margin-top: 10px;
         margin-bottom: 9.17px;
         display: flex;
-        margin-left: 126px;
+        margin-left: 100px;
       }
       #icone {
         width: 47px;
@@ -1097,7 +1114,7 @@ nav ul li{
         margin-right: 3px;
         margin-top: 13px;
         margin-bottom: 12px;
-        margin-left: 700px;
+        margin-left: 600px;
       }
       .hamburguer-button {
         visibility: visible;
@@ -1113,35 +1130,17 @@ nav ul li{
         width: 26px;
         height: 26px;
       }
+    
 
-      .home{
-        display: flex;
-    }
-    /*fim da programação da div*/
-    
-    /*Programação da div que contem os titulos e os botões nomeada como id "home"*/
-    #home{
-        margin-top: 200px;
-        margin-left:  151px;
-        font-size: 40px;
-        font-family: 'RalewayBold';
-    }
-    /*Fim da programação da div*/
-    
-    /*Programação da palavra solução (devido ao seu degrade)*/
-    #solução{
-        margin-left: 19px;
-        background: linear-gradient(  to left, #6200EA, #A452FF);    
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        color: transparent;
-    }
-    /*Fim da programção da palavra*/
-    
-    /*Programação da div que contem oa 2 palavras (para seu alinhamento) nomeada como "titulo"*/
-    #titulo1{
+      #home{
+        font-size: 30px;
+        margin-left: 35px;
+      }
+
+      #titulo1{
         display: flex;
         margin-bottom: 0%;
+        width:200px ;
     }
     /*Fim da programação da div*/
     
@@ -1150,10 +1149,251 @@ nav ul li{
         margin-top: 27px;
         display: flex;
     }
-    /*Fim da programação da div*/
-    
-    /*Programação do primeiro botão*/
+
+      /*Programação do primeiro botão*/
     #btn1{
+        border-radius: 60px;
+        width: 200px;
+        height: 49.12px;
+        margin-right: 25.17px;
+        font-size: 18px;
+    }
+    /*Fim da programação do botão*/
+
+    /*Programação do segundo botão*/
+    #btn2{
+        border-radius: 60px;
+        width: 170px;
+        height: 49.12px;
+        font-size: 18px;
+    }
+    /*Fim da programação do botão*/
+
+    /*Programação da imagem da home nomeada como "img1"*/
+    #img1{
+        width: 550px;
+        height: 509px;
+        margin-top: 100px;
+        margin-right: 20px;
+        margin-left: 0px;
+    }
+
+    /*Programação da imagem da qmsomos nomeada como "img2"*/
+    #img2{
+        width: 592px;
+        height: 466px;
+        margin-left: -30px;
+        margin-right: -100px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    /*Fim da programação da img*/
+
+    /*Programação da div que contem do textos e icones nomeada como id texto2"*/
+#texto2{
+    margin-top: 10px;
+    margin-right: 300px;
+}
+/*Fim da programação da div*/
+
+/*Programação do h1 qmsomos*/
+#tituloqmsomos{
+    margin-top: 0px;
+    font-size: 30px;
+    font-family: 'RalewayBold';
+}
+/*Fim da programação do h1*/
+
+/*Programação dos paragrafos nomeados como class titulo2*/
+.texto2{
+    font-size: 18px;
+    text-align: justify;
+    margin-top: 28px;
+    width: 450px;
+    margin-left: 0%;
+    margin-right: 30px;
+}
+/*Fim da programação dos paragrafos*/
+
+/*Programação da div de alinhamento dos icones e textos nomeada como "caixa"*/
+#caixa{
+    display:flex ;
+    width: 400px;
+    height: 286px;
+}
+/*Fim da programação da div*/
+
+#tituloClientes{
+    font-size: 30px;
+}
+.clientes-carrossel-container {
+    width: 900px;
+}
+
+.cliente-card{
+    width: 500px;
+}
+
+#alinhamento{
+    width: 900px;
+}
+
+/*Programação da primeira div*/
+#D1{
+    width:300px ;
+    height:596px ;
+    margin-left: 25px;
+}
+/*Fim da programação da div*/
+
+/*Programação da segunda div*/
+#D2{
+    width:300px ;
+    height:281px;
+    margin-left: 15px;
+
+}
+/*Fim da programação da div*/
+
+/*Programação da terceira div*/
+#D3{
+    width:300px ;
+    height:281px ;
+    margin-left: 15x;
+    margin-top: 34px;
+
+
+}
+/*Fim da programação da div*/
+
+/*Programação da quarta div*/
+#D4{
+    width:300px ;
+    height:596px ;
+    margin-left: 15px;
+}
+.vantagens{
+    font-size: 30px;
+}
+}
+
+@media screen and (min-width:720px) and (max-width: 889px) {
+    body{
+        background-color: #d61da8;
+    }
+    .cabecalho {
+        height: 40px; 
+      }
+    
+      #nav{
+        width:100% ;
+        height: 60px;
+      }
+      #nav ul {
+        display: none;
+      }
+      #nav li a {
+        display: none; 
+      }
+      #logo {
+        width: 117px;
+        height: 40.83px;
+        margin-top: 10px;
+        margin-bottom: 9.17px;
+        display: flex;
+        margin-left: 126px;
+      }
+      #icone {
+        width: 47px;
+        height: 35px;
+        margin-right: 3px;
+        margin-top: 13px;
+        margin-bottom: 12px;
+        margin-left: 500px;
+      }
+      .hamburguer-button {
+        visibility: visible;
+        top: 17px;
+        right: 27px;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        margin-right: 126px;
+        
+      }
+      #hamburguer-button img {
+        width: 26px;
+        height: 26px;
+      }
+    
+}
+
+@media screen and (min-width:0px) and (max-width: 719px) {
+    body{
+        background-color: #1dd673;
+    }
+    .cabecalho {
+        height: 60px;
+      }
+      
+      #nav {
+        width: 100%;
+        height: 60px;
+      }
+      
+      #nav ul {
+        display: none;
+      }
+      
+      #nav li a {
+        display: none;
+      }
+      
+      #iconeS {
+        visibility: visible;
+        width: 47px;
+        height: 35px;
+        margin-top: 13px;
+        margin-bottom: 12px;
+        margin-left: 300px;
+      }
+      
+      #logo {
+        width: 117px;
+        height: 40.83px;
+      }
+      
+      #icone {
+        visibility: hidden;
+      }
+      
+      .hamburguer-button {
+        visibility: visible;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+      }
+      
+      #hamburguer-button img {
+        width: 26px;
+        height: 26px;
+      }
+
+      .home{
+        display:inline;
+      }
+
+      #home{
+        margin-left: 20px;
+        font-size: 30px;
+      }
+
+      #btns{
+        visibility: hidden;
+      }
+
+      #btn1S{
+        visibility: visible;
         border-radius: 60px;
         width: 227.25px;
         height: 49.12px;
@@ -1163,28 +1403,59 @@ nav ul li{
         font-family: 'RalewayBold';
         background-color: #000000;
         border: solid 2px;
-    }
-    /*Fim da programação do botão*/
-    
-    /*Programação do segundo botão*/
-    #btn2{
-        border-radius: 60px;
-        width: 171.58px;
-        height: 49.12px;
-        font-size: 18px;
-        font-family: 'RalewayBold';
-        border: solid 2px;
-        background-color: #F8F8FF;
-    }
-    /*Fim da programação do botão*/
-    
-    /*Programação da imagem da home nomeada como "img1"*/
-    #img1{
-        width: 750px;
-        height: 609px;
-        margin-top: 100px;
-        margin-right: 50px;
-        margin-left: 30px;
-    }
+      }
+
 
 }
+
+/*@media screen and (min-width:400px) and (max-width: 513px) {
+    body{
+        background-color: #aed61d;
+    }
+    .cabecalho {
+        height: 40px; 
+      }
+    
+      #nav{
+        width:100% ;
+        height: 60px;
+      }
+      #nav ul {
+        display: none;
+      }
+
+      #nav li a {
+        display: none; 
+      }
+      #logo {
+        width: 117px;
+        height: 40.83px;
+        margin-top: 10px;
+        margin-bottom: 9.17px;
+        display: flex;
+        margin-left: 500px;
+      }
+      #icone {
+        width: 47px;
+        height: 35px;
+        margin-left: 3px;
+        margin-top: 13px;
+        margin-bottom: 12px;
+      }
+      .hamburguer-button {
+        visibility: visible;
+        top: 17px;
+        right: 27px;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        margin-right: 126px;
+        
+      }
+      #hamburguer-button img {
+        width: 26px;
+        height: 26px;
+      }
+    
+}
+*/
