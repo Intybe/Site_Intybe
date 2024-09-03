@@ -525,6 +525,7 @@ nav ul li{
     margin-bottom: 15px;
     font-size: 48px;
     font-family: 'RalewayBold';
+    
 }
 /*Fim da programação da div*/
 
@@ -544,7 +545,7 @@ nav ul li{
     height:  279.54px;
     width: 279.96px;
     transform: rotate(0.76deg);
-    margin-left: 81px;
+    margin-left: 60px;
     margin-right: 76.94px;
     margin-bottom: 41.72px;
 }
@@ -556,7 +557,7 @@ nav ul li{
     height:273.44px;
     width:286.12px;
     transform: rotate(5.27deg);
-    margin-left: 69px;
+    margin-left: 60px;
     padding-top: 21.71px;
     margin-right: 60.97px;
     margin-bottom: 39.43px;
@@ -1235,31 +1236,33 @@ nav ul li{
 }
 
 #alinhamento{
-    width: 900px;
+    display: inline;
+    
 }
 
 /*Programação da primeira div*/
 #D1{
-    width:300px ;
-    height:596px ;
-    margin-left: 25px;
+    width:700px ;
+    height:250px ;
+    margin-left: 125px;
 }
 /*Fim da programação da div*/
 
 /*Programação da segunda div*/
 #D2{
-    width:300px ;
-    height:281px;
-    margin-left: 15px;
+    width:700px ;
+    height:250px ;
+    margin-left: 125px;
+    margin-top: 34px;
 
 }
 /*Fim da programação da div*/
 
 /*Programação da terceira div*/
 #D3{
-    width:300px ;
-    height:281px ;
-    margin-left: 15x;
+    width:700px ;
+    height:250px ;
+    margin-left: 125px;
     margin-top: 34px;
 
 
@@ -1268,12 +1271,48 @@ nav ul li{
 
 /*Programação da quarta div*/
 #D4{
-    width:300px ;
-    height:596px ;
-    margin-left: 15px;
+    width:700px ;
+    height:250px ;
+    margin-left: 125px;
+    margin-top: 34px;
+    margin-bottom: 100px;
 }
+
+#img3{
+    visibility:hidden;
+}
+
+#img4{
+    visibility:hidden;
+}
+
 .vantagens{
     font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#orçamento{
+    width: 100%;
+}
+
+.info{
+    margin-left: 0px;
+}
+
+#divO{
+    margin-right: 0px;
+}
+
+.footer-logo-social {
+    display: flex;
+    justify-content: space-between;
+    margin-left: -100px;
+    margin-bottom: 20px;
+}
+
+#linha5{
+    margin-left: 377px;
 }
 }
 
