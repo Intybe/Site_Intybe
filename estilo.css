@@ -1084,6 +1084,12 @@ nav ul li{
 }
 
 @media screen and (min-width:890px) and (max-width: 1000px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box; /* Inclui padding e borda no tamanho total dos elementos */
+    }
     body{
         background-color: #cad61d;
     }
@@ -1296,12 +1302,52 @@ nav ul li{
     width: 100%;
 }
 
-.info{
+/*Programação da div com as informações da empresa*/
+.info {
+    flex: 1;
+    width: 350px;
+    height: 550px;
     margin-left: 0px;
+    margin-right: 80px;
+    margin-top: 30px;
 }
 
 #divO{
     margin-right: 0px;
+    width:400px ;
+}
+
+#tO{
+    text-align: center;
+    margin-top: 30px;
+    margin-left:  135px;
+}
+
+.input-form{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    position: relative;
+    margin-left: 45px;
+}
+/*Fim da programação da div*/
+
+/*Programação do input de descrição*/
+#descricao{
+    margin-top: 5px;
+    border-radius: 20px;
+    resize: none;
+    box-sizing: border-box;
+    border: 2px solid #000;
+    width: 300px;
+    height: 121px;
+}
+/*Fim da programação do input*/
+
+/*Programação do botão*/
+#enviar{
+    margin-left: 90px;
 }
 
 .footer-logo-social {
