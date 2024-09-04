@@ -38,6 +38,8 @@
 body {
     background-color: #F8F8FF; 
     font-family: 'AlbertSans';
+    margin: 0; 
+    overflow-x: hidden;
 }
 /*Fim da programação do body*/
 
@@ -252,6 +254,10 @@ nav ul li{
     font-size: 48px;
     font-family: 'RalewayBold';
 }
+
+#tituloqmsomos2{
+    visibility: hidden;
+}
 /*Fim da programação do h1*/
 
 /*Programação dos paragrafos nomeados como class titulo2*/
@@ -261,6 +267,16 @@ nav ul li{
     margin-top: 28px;
 }
 /*Fim da programação dos paragrafos*/
+
+.texto2_1{
+    visibility: hidden;
+}
+
+.texto2_2{
+    font-size: 18px;
+    text-align: justify;
+    margin-top: 28px;
+}
 
 /*Programação da div de alinhamento dos icones e textos nomeada como "caixa"*/
 #caixa{
@@ -528,6 +544,14 @@ nav ul li{
     
 }
 /*Fim da programação da div*/
+
+.vantagens2{
+    visibility: hidden;
+} 
+
+.vantagens3{
+    visibility: hidden;
+}
 
 /*Programação dos textos das divs de vantagens*/
 .vantagens1{
@@ -1083,7 +1107,7 @@ nav ul li{
 
 }
 
-@media screen and (min-width:890px) and (max-width: 1000px) {
+@media screen and (min-width:915px) and (max-width: 1000px) {
 
     * {
         margin: 0;
@@ -1091,7 +1115,7 @@ nav ul li{
         box-sizing: border-box; /* Inclui padding e borda no tamanho total dos elementos */
     }
     body{
-        background-color: #cad61d;
+        background-color: aqua;
     }
     .cabecalho {
         height: 40px; 
@@ -1134,6 +1158,7 @@ nav ul li{
         
       }
       #hamburguer-button img {
+        margin-top: 3px;
         width: 26px;
         height: 26px;
       }
@@ -1211,14 +1236,24 @@ nav ul li{
 }
 /*Fim da programação do h1*/
 
-/*Programação dos paragrafos nomeados como class titulo2*/
 .texto2{
+    visibility: hidden;
+}
+/*Programação dos paragrafos nomeados como class titulo2*/
+.texto2_1{
+    visibility: visible;
     font-size: 18px;
     text-align: justify;
-    margin-top: 28px;
+    margin-top: -150px;
     width: 450px;
     margin-left: 0%;
     margin-right: 30px;
+}
+
+.texto2_2{
+    font-size: 18px;
+    text-align: justify;
+    margin-top: 28px;
 }
 /*Fim da programação dos paragrafos*/
 
@@ -1250,7 +1285,7 @@ nav ul li{
 #D1{
     width:700px ;
     height:250px ;
-    margin-left: 125px;
+    margin-left: 140px;
 }
 /*Fim da programação da div*/
 
@@ -1258,7 +1293,7 @@ nav ul li{
 #D2{
     width:700px ;
     height:250px ;
-    margin-left: 125px;
+    margin-left: 140px;
     margin-top: 34px;
 
 }
@@ -1268,7 +1303,7 @@ nav ul li{
 #D3{
     width:700px ;
     height:250px ;
-    margin-left: 125px;
+    margin-left: 140px;
     margin-top: 34px;
 
 
@@ -1279,9 +1314,38 @@ nav ul li{
 #D4{
     width:700px ;
     height:250px ;
-    margin-left: 125px;
+    margin-left: 140px;
     margin-top: 34px;
     margin-bottom: 100px;
+}
+
+.vantagens{
+    visibility: hidden;
+}
+
+.vantagens1{
+    visibility: hidden;
+}
+
+.vantagens2{
+    visibility: visible;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    font-family:'RalewayBold';
+    margin-bottom: -70px;
+    padding-top: 42px;
+}
+
+.vantagens3{
+    visibility: visible;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 60px;
+    margin-top: -100px;
+    text-align: center;
 }
 
 #img3{
@@ -1290,12 +1354,6 @@ nav ul li{
 
 #img4{
     visibility:hidden;
-}
-
-.vantagens{
-    font-size: 30px;
-    display: flex;
-    justify-content: center;
 }
 
 #orçamento{
@@ -1362,7 +1420,7 @@ nav ul li{
 }
 }
 
-@media screen and (min-width:720px) and (max-width: 889px) {
+@media screen and (min-width:820px) and (max-width: 914px) {
     body{
         background-color: #d61da8;
     }
@@ -1386,7 +1444,7 @@ nav ul li{
         margin-top: 10px;
         margin-bottom: 9.17px;
         display: flex;
-        margin-left: 126px;
+        margin-left: 100px;
       }
       #icone {
         width: 47px;
@@ -1394,7 +1452,7 @@ nav ul li{
         margin-right: 3px;
         margin-top: 13px;
         margin-bottom: 12px;
-        margin-left: 500px;
+        margin-left: 600px;
       }
       .hamburguer-button {
         visibility: visible;
@@ -1403,17 +1461,294 @@ nav ul li{
         background-color: transparent;
         border: none;
         cursor: pointer;
-        margin-right: 126px;
+        margin-right: 140px;
         
       }
       #hamburguer-button img {
+        margin-top: 3px;
         width: 26px;
         height: 26px;
       }
     
+
+      #home{
+        font-size: 25px;
+        margin-left: 35px;
+      }
+
+      #titulo1{
+        display: flex;
+        margin-bottom: 0%;
+        width:200px ;
+    }
+    /*Fim da programação da div*/
+    
+    /*Programação da div que contem os 2 botões*/
+    #btns{
+        margin-top: 27px;
+        display: flex;
+    }
+
+      /*Programação do primeiro botão*/
+    #btn1{
+        border-radius: 60px;
+        width: 170px;
+        height: 49.12px;
+        margin-right: 25.17px;
+        font-size: 15px;
+    }
+    /*Fim da programação do botão*/
+
+    /*Programação do segundo botão*/
+    #btn2{
+        border-radius: 60px;
+        width: 120px;
+        height: 49.12px;
+        font-size: 18px;
+    }
+    /*Fim da programação do botão*/
+
+    /*Programação da imagem da home nomeada como "img1"*/
+    #img1{
+        width: 500px;
+        height: 459px;
+        margin-top: 100px;
+        margin-right: 20px;
+        margin-left: 15px;
+    }
+
+    /*Programação da imagem da qmsomos nomeada como "img2"*/
+    #img2{
+        width: 683px;
+        height: 584px;
+        margin-top: 20px;
+        margin-bottom: 0px;
+        margin-left: 155px;
+    }
+    /*Fim da programação da img*/
+
+#qmsomos{
+    display: inline;
+}
+/*Programação da div que contem do textos e icones nomeada como id texto2"*/
+#texto2{
+    margin-top: 10px;
+    margin-right: 300px;
+}
+/*Fim da programação da div*/
+
+/*Programação do h1 qmsomos*/
+#tituloqmsomos{
+    visibility: hidden;
 }
 
-@media screen and (min-width:0px) and (max-width: 719px) {
+#tituloqmsomos2{
+    visibility: visible;
+    margin-top: 100px;
+    font-size: 30px;
+    font-family: 'RalewayBold';
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+/*Fim da programação do h1*/
+
+.texto2{
+    visibility: hidden;
+}
+/*Programação dos paragrafos nomeados como class titulo2*/
+
+.texto2_1{
+    visibility: visible;
+    font-size: 20px;
+    text-align: center;
+    width: 450px;
+    margin-top: -400px;
+    margin-left: 130px;
+    line-height: 1.5; 
+    width: 605px;
+
+}
+
+.texto2_2{
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 45px;
+    margin-left: 255px;
+    width: 402px;
+}
+/*Fim da programação dos paragrafos*/
+
+/*Programação da div de alinhamento dos icones e textos nomeada como "caixa"*/
+#caixa{
+    display:flex ;
+    width: 400px;
+    height: 286px;
+    margin-left: 250px;
+}
+/*Fim da programação da div*/
+
+#tituloClientes{
+    font-size: 30px;
+}
+.clientes-carrossel-container {
+    width: 900px;
+}
+
+.cliente-card{
+    width: 500px;
+}
+
+#alinhamento{
+    display: inline;
+    
+}
+
+/*Programação da primeira div*/
+#D1{
+    width:550px ;
+    height:250px ;
+    margin-left: 165px;
+}
+/*Fim da programação da div*/
+
+/*Programação da segunda div*/
+#D2{
+    width:550px ;
+    height:250px ;
+    margin-left: 165px;
+    margin-top: 34px;
+
+}
+/*Fim da programação da div*/
+
+/*Programação da terceira div*/
+#D3{
+    width:550px ;
+    height:250px ;
+    margin-left: 165px;
+    margin-top: 34px;
+
+
+}
+/*Fim da programação da div*/
+
+/*Programação da quarta div*/
+#D4{
+    width:550px ;
+    height:250px ;
+    margin-left: 165px;
+    margin-top: 34px;
+    margin-bottom: 100px;
+}
+
+.vantagens{
+    visibility: hidden;
+}
+
+.vantagens1{
+    visibility: hidden;
+}
+
+.vantagens2{
+    visibility: visible;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    font-family:'RalewayBold';
+    margin-bottom: -70px;
+    padding-top: 42px;
+}
+
+.vantagens3{
+    visibility: visible;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 60px;
+    margin-top: -110px;
+    text-align: center;
+}
+
+#img3{
+    visibility:hidden;
+}
+
+#img4{
+    visibility:hidden;
+}
+
+#contato{
+    display: inline;
+}
+
+#orçamento{
+    width: 100%;
+}
+
+/*Programação da div com as informações da empresa*/
+.info {
+    flex: 1;
+    width: 350px;
+    height: 550px;
+    margin-left: 290px;
+    margin-top: 30px;
+}
+
+#divO{
+    margin-right: 0px;
+    width:400px;
+    margin-left: 240px;
+}
+
+#tO{
+    text-align: center;
+    padding-top: 30px;
+    margin-left:  135px;
+}
+
+.input-form{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    position: relative;
+    margin-left: 45px;
+}
+/*Fim da programação da div*/
+
+/*Programação do input de descrição*/
+#descricao{
+    margin-top: 5px;
+    border-radius: 20px;
+    resize: none;
+    box-sizing: border-box;
+    border: 2px solid #000;
+    width: 300px;
+    height: 121px;
+}
+/*Fim da programação do input*/
+
+/*Programação do botão*/
+#enviar{
+    margin-left: 90px;
+}
+
+.footer-logo-social {
+    display: flex;
+    justify-content: space-between;
+    margin-left: -100px;
+    margin-bottom: 20px;
+}
+
+#linha5{
+    margin-left: 377px;
+}
+    
+}
+
+@media screen and (min-width:0px) and (max-width: 819px) {
     body{
         background-color: #1dd673;
     }
@@ -1464,33 +1799,282 @@ nav ul li{
         height: 26px;
       }
 
-      .home{
-        display:inline;
-      }
+    
 
       #home{
-        margin-left: 20px;
-        font-size: 30px;
+        font-size: 25px;
+        margin-left: 35px;
       }
 
-      #btns{
-        visibility: hidden;
-      }
+      #titulo1{
+        display: flex;
+        margin-bottom: 0%;
+        width:200px ;
+    }
+    /*Fim da programação da div*/
+    
+    /*Programação da div que contem os 2 botões*/
+    #btns{
+        margin-top: 27px;
+        display: flex;
+    }
 
-      #btn1S{
-        visibility: visible;
+      /*Programação do primeiro botão*/
+    #btn1{
         border-radius: 60px;
-        width: 227.25px;
+        width: 170px;
         height: 49.12px;
         margin-right: 25.17px;
+        font-size: 15px;
+    }
+    /*Fim da programação do botão*/
+
+    /*Programação do segundo botão*/
+    #btn2{
+        border-radius: 60px;
+        width: 120px;
+        height: 49.12px;
         font-size: 18px;
-        color: #FFFFFF;
-        font-family: 'RalewayBold';
-        background-color: #000000;
-        border: solid 2px;
-      }
+    }
+    /*Fim da programação do botão*/
+
+    /*Programação da imagem da home nomeada como "img1"*/
+    #img1{
+        width: 500px;
+        height: 459px;
+        margin-top: 100px;
+        margin-right: 20px;
+        margin-left: 15px;
+    }
+
+    /*Programação da imagem da qmsomos nomeada como "img2"*/
+    #img2{
+        width: 683px;
+        height: 584px;
+        margin-top: 20px;
+        margin-bottom: 0px;
+        margin-left: 155px;
+    }
+    /*Fim da programação da img*/
+
+#qmsomos{
+    display: inline;
+}
+/*Programação da div que contem do textos e icones nomeada como id texto2"*/
+#texto2{
+    margin-top: 10px;
+    margin-right: 300px;
+}
+/*Fim da programação da div*/
+
+/*Programação do h1 qmsomos*/
+#tituloqmsomos{
+    visibility: hidden;
+}
+
+#tituloqmsomos2{
+    visibility: visible;
+    margin-top: 100px;
+    font-size: 30px;
+    font-family: 'RalewayBold';
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+/*Fim da programação do h1*/
+
+.texto2{
+    visibility: hidden;
+}
+/*Programação dos paragrafos nomeados como class titulo2*/
+
+.texto2_1{
+    visibility: visible;
+    font-size: 20px;
+    text-align: center;
+    width: 450px;
+    margin-top: -400px;
+    margin-left: 130px;
+    line-height: 1.5; 
+    width: 605px;
+
+}
+
+.texto2_2{
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 45px;
+    margin-left: 255px;
+    width: 402px;
+}
+/*Fim da programação dos paragrafos*/
+
+/*Programação da div de alinhamento dos icones e textos nomeada como "caixa"*/
+#caixa{
+    display:flex ;
+    width: 400px;
+    height: 286px;
+    margin-left: 250px;
+}
+/*Fim da programação da div*/
+
+#tituloClientes{
+    font-size: 30px;
+}
+.clientes-carrossel-container {
+    width: 900px;
+}
+
+.cliente-card{
+    width: 500px;
+}
+
+#alinhamento{
+    display: inline;
+    
+}
+
+/*Programação da primeira div*/
+#D1{
+    width:550px ;
+    height:250px ;
+    margin-left: 165px;
+}
+/*Fim da programação da div*/
+
+/*Programação da segunda div*/
+#D2{
+    width:550px ;
+    height:250px ;
+    margin-left: 165px;
+    margin-top: 34px;
+
+}
+/*Fim da programação da div*/
+
+/*Programação da terceira div*/
+#D3{
+    width:550px ;
+    height:250px ;
+    margin-left: 165px;
+    margin-top: 34px;
 
 
+}
+/*Fim da programação da div*/
+
+/*Programação da quarta div*/
+#D4{
+    width:550px ;
+    height:250px ;
+    margin-left: 165px;
+    margin-top: 34px;
+    margin-bottom: 100px;
+}
+
+.vantagens{
+    visibility: hidden;
+}
+
+.vantagens1{
+    visibility: hidden;
+}
+
+.vantagens2{
+    visibility: visible;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    font-family:'RalewayBold';
+    margin-bottom: -70px;
+    padding-top: 42px;
+}
+
+.vantagens3{
+    visibility: visible;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 60px;
+    margin-top: -110px;
+    text-align: center;
+}
+
+#img3{
+    visibility:hidden;
+}
+
+#img4{
+    visibility:hidden;
+}
+
+#contato{
+    display: inline;
+}
+
+#orçamento{
+    width: 100%;
+}
+
+/*Programação da div com as informações da empresa*/
+.info {
+    flex: 1;
+    width: 350px;
+    height: 550px;
+    margin-left: 290px;
+    margin-top: 30px;
+}
+
+#divO{
+    margin-right: 0px;
+    width:400px;
+    margin-left: 240px;
+}
+
+#tO{
+    text-align: center;
+    padding-top: 30px;
+    margin-left:  135px;
+}
+
+.input-form{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    position: relative;
+    margin-left: 45px;
+}
+/*Fim da programação da div*/
+
+/*Programação do input de descrição*/
+#descricao{
+    margin-top: 5px;
+    border-radius: 20px;
+    resize: none;
+    box-sizing: border-box;
+    border: 2px solid #000;
+    width: 300px;
+    height: 121px;
+}
+/*Fim da programação do input*/
+
+/*Programação do botão*/
+#enviar{
+    margin-left: 90px;
+}
+
+.footer-logo-social {
+    display: flex;
+    justify-content: space-between;
+    margin-left: -100px;
+    margin-bottom: 20px;
+}
+
+#linha5{
+    margin-left: 377px;
+}
 }
 
 /*@media screen and (min-width:400px) and (max-width: 513px) {
