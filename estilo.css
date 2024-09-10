@@ -563,6 +563,7 @@ nav ul li{
 }
 /*Fim da programação dos textos*/
 
+
 /*Programação da imagem do processador nomeada como "img3"*/
 #img3{
     padding-top: 120.05px;
@@ -1166,6 +1167,9 @@ nav ul li{
 }
 /*Fim da programação da div*/
 
+#D1{
+    margin-left: 0px;
+}
 
 /*Programação da div que contem todo o conteudo*/
 .vantagens{
@@ -1188,7 +1192,7 @@ nav ul li{
 
 }
 
-@media screen and (min-width:1001px) and (max-width: 1449px) {
+@media screen and (min-width:1315px) and (max-width: 1449px) {
     * {
         margin: 0;
         padding: 0;
@@ -1197,6 +1201,18 @@ nav ul li{
     body{
         background-color: rgba(0, 26, 255, 0.719);
     }
+
+    #nav ul{
+        display:flex;
+        flex-wrap: nowrap;
+        list-style:none;
+        text-align: center;
+        justify-content: center;
+        padding: 0;
+        align-items: center;
+        margin-left: 130.31px;
+        margin-right: 130.31px;
+}
 
     .home{
         display: flex;
@@ -1241,105 +1257,22 @@ nav ul li{
         margin-right: 300px;
     }
     /*Fim da programação da div*/
-    
-    /*Programação do h1 qmsomos*/
-    #tituloqmsomos{
-        margin-top: 0px;
-        font-size: 48px;
-        font-family: 'RalewayBold';
-    }
-    
-    #tituloqmsomos2{
-        visibility: hidden;
-    }
-    /*Fim da programação do h1*/
-    
-    /*Programação dos paragrafos nomeados como class titulo2*/
-    .texto2{
-        font-size: 18px;
-        text-align: justify;
-        margin-top: 28px;
-    }
-    /*Fim da programação dos paragrafos*/
-    
-    .texto2_1{
-        visibility: hidden;
-    }
+
     
     .texto2_2{
-        font-size: 18px;
-        text-align: justify;
-        margin-top: 28px;
+        margin-top: -20px;
     }
-    
-    /*Programação da div de alinhamento dos icones e textos nomeada como "caixa"*/
-    #caixa{
-        display:flex ;
-        width: 605px;
-        height: 486px;
-    }
-    /*Fim da programação da div*/
-    
-    /*Programação da div de alinhamento dos icones e textos esquerdos nomeada como "caixa1"*/
-    #caixa1{
-        margin-top: 40.09px;
-        margin-right: 37.01px;
-    }
-    /*Fim da programação da div*/
-    
-    /*Programação da div de alinhamento dos icones e textos direitos nomeada como "caixa2"*/
-    #caixa2{
-        margin-top: 40.09px;
-        margin-left: 47px;
-    }
-    /*Fim da programação da div*/
-    
-    /*Programação da div de alinhamento dos icones e textos superiores nomeada como "caixa3"*/
-    .caixa3{
-        display:flex;
-    }
-    /*Fim da programação da div*/
-    
-    /*Programação da div de alinhamento dos icones e textos inferiores nomeada como "caixa4"*/
-    .caixa4{
-        display:flex;
-        margin-top: 24.91px;
-    }
-    /*Fim da programação da div*/
-    
-    /*programação dos icones*/
-    .icon1{
-        width: 29.99px;
-        height: 29.95px;
-    }
-    /*Fim da programação dos icones*/
-    
-    /*Programação das palavras dos icones*/
-    .p1{
-        margin-left: 11px;
-        line-height: 2;
-    }
-    /*Fim da programação das palavras*/
-    
-    /*Programação da linha entre os icones*/
-    #linha1{
-        margin-left: 0px;
-        margin-right: 0px;
-        height:90px;
-        margin-top: 40.09px;
-        border: 1px solid #1D40D6;
-    }
-    /*Fim da programação da linha */
+
     
     /*Programação do botão de anterior*/
     #prevBtn { 
-        margin-left: 100px;
+        margin-left: 50px;
     }
     /*Fim da programação do botão*/
     
     /*Programação do botão de proximo*/
     #nextBtn {
-        margin-right: 100px;
+        margin-right: 50px;
     }
     /*Fim da programação do botão*/
 
@@ -1350,26 +1283,302 @@ nav ul li{
 }
 /*Fim da programação da div*/
 
-
-/*Programação da div que contem todo o conteudo*/
-.vantagens{
-    padding-top: 5px;
-    
+#D1{
+    width:370px ;
+    height:596px ;
+    margin-left: 0px;
 }
 /*Fim da programação da div*/
 
+/*Programação da segunda div*/
+#D2{
+    width:450px ;
+    height:281px ;
+
+}
+/*Fim da programação da div*/
+
+/*Programação da terceira div*/
+#D3{
+    width:450px ;
+    height:281px ;
+
+}
+/*Fim da programação da div*/
+
+/*Programação da quarta div*/
+#D4{
+    width:370px ;
+    height:596px ;
+}
+/*Fim da programação da div*/
+
+#D4 .vantagens{
+    padding-top: 10px;
+    margin-top: -50px;
+}
+/*Programação da div que contem todo o conteudo*/
+.vantagens{
+    padding-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 15px;
+    font-size: 48px;
+    font-family: 'RalewayBold';
+    padding-top: 5px;
+}
+
+.vantagens3{
+    visibility: visible;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+    margin-top :-85px;
+}
+
+/*Programação dos textos das divs de vantagens*/
+.vantagens1{
+    visibility: hidden;
+}
+/*Fim da programação dos textos*/
+
+/*Programação da imagem do processador nomeada como "img3"*/
+#img3{
+    padding-top: 120.05px;
+    height:  279.54px;
+    width: 279.96px;
+    transform: rotate(0.76deg);
+    margin-left: 45px;
+    margin-right: 76.94px;
+    margin-bottom: 41.72px;
+    margin-top: -52px;
+}
+/*Fim da programação da imagem*/
+
+/*Programação da imagem do computador nomeada como "img4"*/
+#img4{
+    padding-top: 120.05px;
+    height:273.44px;
+    width:286.12px;
+    transform: rotate(5.27deg);
+    margin-left: 40px;
+    padding-top: 21.71px;
+    margin-right: 60.97px;
+    margin-bottom: 39.43px;
+    margin-top: -10px;
+}
+/*Fim da programação da imagem*/
+
 /*Programação do botão de anterior*/
 #prevBtn2 { 
-    margin-left: 100px;
+    margin-left: 50px;
 }
 /*Fim da programação do botão*/
 
 /*Programação do botão de proximo*/
 #nextBtn2 {
-    margin-right: 100px;
+    margin-right: 50px;
 }
 /*Fim da programação do botão*/
 
+#contato{
+    display: flex;
+    justify-content: center;
+}
+}
+
+@media screen and (min-width:1201px) and (max-width: 1314px) {
+    body{
+        background-color: #1dd673;
+    }
+
+    
+    /*Programação da estrutura ul da nav*/
+    #nav ul{
+            margin-left: 100.31px;
+            margin-right: 100.31px;
+    }
+    /*Fim da programação da estrutura ul da nav*/
+
+    .home{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 70px;
+    }
+    #home{
+        margin-top: 200px;
+        margin-left:  200px;
+        font-size: 40px;
+    }
+    /*Fim da programação da div*/
+    
+    /*Programação da imagem da home nomeada como "img1"*/
+    #img1{
+        width: 700px;
+        height: 609px;
+        margin-top: 100px;
+        margin-right: 50px;
+        margin-left: 5px;
+    }
+
+    #qmsomos{
+        display: flex;
+        justify-content: center;
+        margin-bottom: -30px;
+    }
+    /*Fim da programação da div*/
+    
+    /*Programação da imagem da qmsomos nomeada como "img2"*/
+    #img2{
+        width: 795px;
+        height: 668px;
+        margin-left: 30px;
+        margin-right: -100px;
+    }
+    /*Fim da programação da img*/
+    
+    /*Programação da div que contem do textos e icones nomeada como id texto2"*/
+    #texto2{
+        margin-top: 10px;
+        margin-right: 300px;
+    }
+    /*Fim da programação da div*/
+
+    
+    .texto2_2{
+        margin-top: -20px;
+    }
+
+    
+    /*Programação do botão de anterior*/
+    #prevBtn { 
+        margin-left: 50px;
+    }
+    /*Fim da programação do botão*/
+    
+    /*Programação do botão de proximo*/
+    #nextBtn {
+        margin-right: 50px;
+    }
+    /*Fim da programação do botão*/
+
+    /*Programação da div de alinhamento*/
+#alinhamento{
+    display: flex;
+    justify-content: center;
+}
+/*Fim da programação da div*/
+
+#D1{
+    width:370px ;
+    height:596px ;
+    margin-left: 0px;
+}
+/*Fim da programação da div*/
+
+/*Programação da segunda div*/
+#D2{
+    width:450px ;
+    height:281px ;
+
+}
+/*Fim da programação da div*/
+
+/*Programação da terceira div*/
+#D3{
+    width:450px ;
+    height:281px ;
+
+}
+/*Fim da programação da div*/
+
+/*Programação da quarta div*/
+#D4{
+    width:370px ;
+    height:596px ;
+}
+/*Fim da programação da div*/
+
+#D4 .vantagens{
+    padding-top: 10px;
+    margin-top: -50px;
+}
+/*Programação da div que contem todo o conteudo*/
+.vantagens{
+    padding-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 15px;
+    font-size: 48px;
+    font-family: 'RalewayBold';
+    padding-top: 5px;
+}
+
+.vantagens3{
+    visibility: visible;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+    margin-top :-85px;
+}
+
+/*Programação dos textos das divs de vantagens*/
+.vantagens1{
+    visibility: hidden;
+}
+/*Fim da programação dos textos*/
+
+/*Programação da imagem do processador nomeada como "img3"*/
+#img3{
+    padding-top: 120.05px;
+    height:  279.54px;
+    width: 279.96px;
+    transform: rotate(0.76deg);
+    margin-left: 45px;
+    margin-right: 76.94px;
+    margin-bottom: 41.72px;
+    margin-top: -52px;
+}
+/*Fim da programação da imagem*/
+
+/*Programação da imagem do computador nomeada como "img4"*/
+#img4{
+    padding-top: 120.05px;
+    height:273.44px;
+    width:286.12px;
+    transform: rotate(5.27deg);
+    margin-left: 40px;
+    padding-top: 21.71px;
+    margin-right: 60.97px;
+    margin-bottom: 39.43px;
+    margin-top: -10px;
+}
+/*Fim da programação da imagem*/
+
+/*Programação do botão de anterior*/
+#prevBtn2 { 
+    margin-left: 50px;
+}
+/*Fim da programação do botão*/
+
+/*Programação do botão de proximo*/
+#nextBtn2 {
+    margin-right: 50px;
+}
+/*Fim da programação do botão*/
+
+#contato{
+    display: flex;
+    justify-content: center;
+}
+}
+
+@media screen and (min-width:1001px) and (max-width: 1200px) {
+    body{
+        background-color: gray;
+    }
 }
 
 @media screen and (min-width:915px) and (max-width: 1000px) {
