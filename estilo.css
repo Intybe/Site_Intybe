@@ -140,6 +140,7 @@ nav ul li{
 
 /*FIM DA PROGRAMAÇÃO DA NAV*/
 
+
 /*INICIO DA PROGRAMAÇÃO DA TELA HOME*/
 /*Programação da div que contem a tela home class "home"*/
 .home{
@@ -1101,6 +1102,42 @@ nav ul li{
 }
 /*Fim da programação da linha*/
 
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content button {
+    color: black;
+    padding: 12px 16px;
+    text-align: left;
+    border: none;
+    background: none;
+    width: 100%;
+}
+
+.dropdown-content button:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown.show .dropdown-content {
+    display: block;
+}
+
+#icone{
+    background: transparent;
+    border: none;
+}
+
 
 /*INICIO DA PROGRAMAÇÃO  DA RESPONSIVIDADE*/
 
@@ -1110,10 +1147,6 @@ nav ul li{
         padding: 0;
         box-sizing: border-box; /* Inclui padding e borda no tamanho total dos elementos */
     }
-    body{
-        background-color: rgba(229, 255, 0, 0.719);
-    }
-
     .home{
         display: flex;
         justify-content: center;
@@ -1129,8 +1162,8 @@ nav ul li{
     /*Programação da imagem da home nomeada como "img1"*/
     #img1{
         width: 762px;
-        height: 609px;
-        margin-top: 100px;
+        height: 709px;
+        margin-top: 50px;
         margin-right: 50px;
         margin-left: 10px;
     }
@@ -1198,10 +1231,6 @@ nav ul li{
         padding: 0;
         box-sizing: border-box; /* Inclui padding e borda no tamanho total dos elementos */
     }
-    body{
-        background-color: rgba(0, 26, 255, 0.719);
-    }
-
     #nav ul{
         display:flex;
         flex-wrap: nowrap;
@@ -1389,11 +1418,6 @@ nav ul li{
 }
 
 @media screen and (min-width:1201px) and (max-width: 1314px) {
-    body{
-        background-color: #1dd673;
-    }
-
-    
     /*Programação da estrutura ul da nav*/
     #nav ul{
             margin-left: 100.31px;
@@ -1408,7 +1432,7 @@ nav ul li{
     }
     #home{
         margin-top: 200px;
-        margin-left:  200px;
+        margin-left:  400px;
         font-size: 40px;
     }
     /*Fim da programação da div*/
@@ -1418,8 +1442,8 @@ nav ul li{
         width: 700px;
         height: 609px;
         margin-top: 100px;
-        margin-right: 50px;
-        margin-left: 5px;
+        margin-right: 200px;
+        margin-left: -50px;
     }
 
     #qmsomos{
@@ -1431,8 +1455,8 @@ nav ul li{
     
     /*Programação da imagem da qmsomos nomeada como "img2"*/
     #img2{
-        width: 795px;
-        height: 668px;
+        width: 695px;
+        height: 568px;
         margin-left: 30px;
         margin-right: -100px;
     }
@@ -1464,98 +1488,88 @@ nav ul li{
     /*Fim da programação do botão*/
 
     /*Programação da div de alinhamento*/
-#alinhamento{
-    display: flex;
-    justify-content: center;
-}
-/*Fim da programação da div*/
+    #alinhamento{
+        display: inline; 
+    }
 
-#D1{
-    width:370px ;
-    height:596px ;
-    margin-left: 0px;
-}
-/*Fim da programação da div*/
-
-/*Programação da segunda div*/
-#D2{
-    width:450px ;
-    height:281px ;
-
-}
-/*Fim da programação da div*/
-
-/*Programação da terceira div*/
-#D3{
-    width:450px ;
-    height:281px ;
-
-}
-/*Fim da programação da div*/
-
-/*Programação da quarta div*/
-#D4{
-    width:370px ;
-    height:596px ;
-}
-/*Fim da programação da div*/
-
-#D4 .vantagens{
-    padding-top: 10px;
-    margin-top: -50px;
-}
-/*Programação da div que contem todo o conteudo*/
-.vantagens{
-    padding-top: 20px;
-    margin-left: 50px;
-    margin-bottom: 15px;
-    font-size: 48px;
-    font-family: 'RalewayBold';
-    padding-top: 5px;
-}
-
-.vantagens3{
-    visibility: visible;
-    margin-left: 50px;
-    margin-right: 50px;
-    font-size: 18px;
-    line-height: 1.5;
-    text-align: justify;
-    margin-top :-85px;
-}
-
-/*Programação dos textos das divs de vantagens*/
-.vantagens1{
-    visibility: hidden;
-}
-/*Fim da programação dos textos*/
-
-/*Programação da imagem do processador nomeada como "img3"*/
-#img3{
-    padding-top: 120.05px;
-    height:  279.54px;
-    width: 279.96px;
-    transform: rotate(0.76deg);
-    margin-left: 45px;
-    margin-right: 76.94px;
-    margin-bottom: 41.72px;
-    margin-top: -52px;
-}
-/*Fim da programação da imagem*/
-
-/*Programação da imagem do computador nomeada como "img4"*/
-#img4{
-    padding-top: 120.05px;
-    height:273.44px;
-    width:286.12px;
-    transform: rotate(5.27deg);
-    margin-left: 40px;
-    padding-top: 21.71px;
-    margin-right: 60.97px;
-    margin-bottom: 39.43px;
-    margin-top: -10px;
-}
-/*Fim da programação da imagem*/
+    #alinhamento1{
+        display: flex;
+        justify-content: center;
+    }
+    
+    /*Programação da primeira div*/
+    #D1{
+        width:700px ;
+        height:250px ;
+        margin-left: 0px;
+    }
+    /*Fim da programação da div*/
+    
+    /*Programação da segunda div*/
+    #D2{
+        width:700px ;
+        height:250px ;
+        margin-top: 34px;
+        margin-left: 0px;
+    
+    }
+    /*Fim da programação da div*/
+    
+    /*Programação da terceira div*/
+    #D3{
+        width:700px ;
+        height:250px ;
+        margin-top: 34px;
+        margin-left: 0px;
+    
+    }
+    /*Fim da programação da div*/
+    
+    /*Programação da quarta div*/
+    #D4{
+        width:700px ;
+        height:250px ;
+        margin-top: 34px;
+        margin-bottom: 100px;
+        margin-left: 0px;
+    }
+    
+    .vantagens{
+        visibility: hidden;
+    }
+    
+    .vantagens1{
+        visibility: hidden;
+    }
+    
+    .vantagens2{
+        visibility: visible;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        font-family:'RalewayBold';
+        margin-bottom: -70px;
+        padding-top: 42px;
+    }
+    
+    .vantagens3{
+        visibility: visible;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        margin-left: 50px;
+        margin-right: 60px;
+        margin-top: -100px;
+        text-align: center;
+    }
+    
+    #img3{
+        visibility:hidden;
+    }
+    
+    #img4{
+        visibility:hidden;
+    }
 
 /*Programação do botão de anterior*/
 #prevBtn2 { 
@@ -1573,12 +1587,195 @@ nav ul li{
     display: flex;
     justify-content: center;
 }
+
+.en [data-key] #nome {
+    width: 15px 
+  }
 }
 
 @media screen and (min-width:1001px) and (max-width: 1200px) {
-    body{
-        background-color: gray;
-    }
+      /*Programação da estrutura ul da nav*/
+      #nav ul{
+        margin-left: 70.31px;
+        margin-right: 42px;
+}
+/*Fim da programação da estrutura ul da nav*/
+
+#logo{
+    width: 117px;
+    height: 40.83px;
+    margin-top: 8px;
+    margin-bottom: 6px;
+    display: flex;
+    margin-left: 240px;
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+#home{
+    margin-top: 200px;
+    margin-left:  400px;
+    font-size: 30px;
+}
+/*Fim da programação da div*/
+
+/*Programação da imagem da home nomeada como "img1"*/
+#img1{
+    width: 643.03px;
+    height: 533.99px;
+    margin-top: 100px;
+    margin-right: 200px;
+    margin-left: -50px;
+}
+
+#qmsomos{
+    display: flex;
+    justify-content: center;
+    margin-bottom: -30px;
+}
+/*Fim da programação da div*/
+
+/*Programação da imagem da qmsomos nomeada como "img2"*/
+#img2{
+    width: 600.03px;
+    height: 500.99px;
+    margin-left: 10px;
+    margin-right: -125px;
+}
+/*Fim da programação da img*/
+
+/*Programação da div que contem do textos e icones nomeada como id texto2"*/
+#tituloqmsomos{
+    font-size: 30px;
+}
+
+#texto2{
+    margin-top: 10px;
+    margin-right: 300px;
+}
+/*Fim da programação da div*/
+
+
+.texto2_2{
+    margin-top: -20px;
+}
+
+
+/*Programação do botão de anterior*/
+#prevBtn { 
+    margin-left: 50px;
+}
+/*Fim da programação do botão*/
+
+/*Programação do botão de proximo*/
+#nextBtn {
+    margin-right: 50px;
+}
+/*Fim da programação do botão*/
+
+/*Programação da div de alinhamento*/
+#alinhamento{
+    display: inline; 
+}
+
+#alinhamento1{
+    display: flex;
+    justify-content: center;
+}
+
+/*Programação da primeira div*/
+#D1{
+    width:700px ;
+    height:250px ;
+    margin-left: 0px;
+}
+/*Fim da programação da div*/
+
+/*Programação da segunda div*/
+#D2{
+    width:700px ;
+    height:250px ;
+    margin-top: 34px;
+    margin-left: 0px;
+
+}
+/*Fim da programação da div*/
+
+/*Programação da terceira div*/
+#D3{
+    width:700px ;
+    height:250px ;
+    margin-top: 34px;
+    margin-left: 0px;
+
+}
+/*Fim da programação da div*/
+
+/*Programação da quarta div*/
+#D4{
+    width:700px ;
+    height:250px ;
+    margin-top: 34px;
+    margin-bottom: 100px;
+    margin-left: 0px;
+}
+
+.vantagens{
+    visibility: hidden;
+}
+
+.vantagens1{
+    visibility: hidden;
+}
+
+.vantagens2{
+    visibility: visible;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    font-family:'RalewayBold';
+    margin-bottom: -70px;
+    padding-top: 42px;
+}
+
+.vantagens3{
+    visibility: visible;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 60px;
+    margin-top: -100px;
+    text-align: center;
+}
+
+#img3{
+    visibility:hidden;
+}
+
+#img4{
+    visibility:hidden;
+}
+
+/*Programação do botão de anterior*/
+#prevBtn2 { 
+margin-left: 50px;
+}
+/*Fim da programação do botão*/
+
+/*Programação do botão de proximo*/
+#nextBtn2 {
+margin-right: 50px;
+}
+/*Fim da programação do botão*/
+
+#contato{
+display: flex;
+justify-content: center;
+}
 }
 
 @media screen and (min-width:915px) and (max-width: 1000px) {
@@ -1587,9 +1784,6 @@ nav ul li{
         margin: 0;
         padding: 0;
         box-sizing: border-box; /* Inclui padding e borda no tamanho total dos elementos */
-    }
-    body{
-        background-color: aqua;
     }
     .cabecalho {
         height: 40px; 
@@ -1752,14 +1946,18 @@ nav ul li{
 
 #alinhamento{
     display: inline;
-    
+}
+
+#alinhamento1{
+    display: flex;
+    justify-content: center;
 }
 
 /*Programação da primeira div*/
 #D1{
     width:700px ;
     height:250px ;
-    margin-left: 140px;
+    margin-left: 0px;
 }
 /*Fim da programação da div*/
 
@@ -1767,7 +1965,7 @@ nav ul li{
 #D2{
     width:700px ;
     height:250px ;
-    margin-left: 140px;
+    margin-left: 0px;
     margin-top: 34px;
 
 }
@@ -1777,7 +1975,7 @@ nav ul li{
 #D3{
     width:700px ;
     height:250px ;
-    margin-left: 140px;
+    margin-left: 0px;
     margin-top: 34px;
 
 
@@ -1788,7 +1986,7 @@ nav ul li{
 #D4{
     width:700px ;
     height:250px ;
-    margin-left: 140px;
+    margin-left: 0px;
     margin-top: 34px;
     margin-bottom: 100px;
 }
@@ -1895,9 +2093,6 @@ nav ul li{
 }
 
 @media screen and (min-width:820px) and (max-width: 914px) {
-    body{
-        background-color: #d61da8;
-    }
     .cabecalho {
         height: 40px; 
       }
@@ -2075,14 +2270,18 @@ nav ul li{
 
 #alinhamento{
     display: inline;
-    
+}
+
+#alinhamento1{
+    display: flex;
+    justify-content: center;
 }
 
 /*Programação da primeira div*/
 #D1{
     width:550px ;
     height:250px ;
-    margin-left: 165px;
+    margin-left: 0px;
 }
 /*Fim da programação da div*/
 
@@ -2090,7 +2289,7 @@ nav ul li{
 #D2{
     width:550px ;
     height:250px ;
-    margin-left: 165px;
+    margin-left: 0px;
     margin-top: 34px;
 
 }
@@ -2100,7 +2299,7 @@ nav ul li{
 #D3{
     width:550px ;
     height:250px ;
-    margin-left: 165px;
+    margin-left: 0px;
     margin-top: 34px;
 
 
@@ -2111,7 +2310,7 @@ nav ul li{
 #D4{
     width:550px ;
     height:250px ;
-    margin-left: 165px;
+    margin-left: 0px;
     margin-top: 34px;
     margin-bottom: 100px;
 }
@@ -2223,9 +2422,6 @@ nav ul li{
 }
 
 @media screen and (min-width:750px) and (max-width: 819px) {
-    body{
-        background-color: #1dd673;
-    }
     .cabecalho {
         height: 60px;
       }
@@ -2410,14 +2606,18 @@ nav ul li{
 
 #alinhamento{
     display: inline;
-    
+}
+
+#alinhamento1{
+    display: flex;
+    justify-content: center;
 }
 
 /*Programação da primeira div*/
 #D1{
     width:550px ;
     height:250px ;
-    margin-left: 120px;
+    margin-left: 0px;
 }
 /*Fim da programação da div*/
 
@@ -2425,7 +2625,7 @@ nav ul li{
 #D2{
     width:550px ;
     height:250px ;
-    margin-left: 120px;
+    margin-left: 0px;
     margin-top: 34px;
 
 }
@@ -2435,7 +2635,7 @@ nav ul li{
 #D3{
     width:550px ;
     height:250px ;
-    margin-left: 120px;
+    margin-left: 0px;
     margin-top: 34px;
 
 
@@ -2446,7 +2646,7 @@ nav ul li{
 #D4{
     width:550px ;
     height:250px ;
-    margin-left: 120px;
+    margin-left: 0px;
     margin-top: 34px;
     margin-bottom: 100px;
 }
@@ -2557,10 +2757,6 @@ nav ul li{
 }
 
 @media screen and (min-width:685px) and (max-width:750px){
-    body{
-        background-color: #d22828;
-    }
-
     .cabecalho {
         height: 60px;
       }
@@ -2748,11 +2944,16 @@ nav ul li{
     
 }
 
+#alinhamento1{
+    display: flex;
+    justify-content: center;
+}
+
 /*Programação da primeira div*/
 #D1{
     width:550px ;
     height:250px ;
-    margin-left: 90px;
+    margin-left: 0px;
 }
 /*Fim da programação da div*/
 
@@ -2760,7 +2961,7 @@ nav ul li{
 #D2{
     width:550px ;
     height:250px ;
-    margin-left: 90px;
+    margin-left: 0px;
     margin-top: 34px;
 
 }
@@ -2770,7 +2971,7 @@ nav ul li{
 #D3{
     width:550px ;
     height:250px ;
-    margin-left: 90px;
+    margin-left: 0px;
     margin-top: 34px;
 
 
@@ -2781,7 +2982,7 @@ nav ul li{
 #D4{
     width:550px ;
     height:250px ;
-    margin-left: 90px;
+    margin-left: 0px;
     margin-top: 34px;
     margin-bottom: 100px;
 }
@@ -2892,10 +3093,6 @@ nav ul li{
 }
 
 @media screen and (min-width:610px) and (max-width:685px){
-    body{
-        background-color: coral;
-    }
-
     .cabecalho {
         height: 60px;
       }
@@ -3083,11 +3280,16 @@ nav ul li{
     
 }
 
+#alinhamento1{
+    display: flex;
+    justify-content: center;
+}
+
 /*Programação da primeira div*/
 #D1{
     width:450px ;
     height:250px ;
-    margin-left: 100px;
+    margin-left: 0px;
 }
 /*Fim da programação da div*/
 
@@ -3095,7 +3297,7 @@ nav ul li{
 #D2{
     width:450px ;
     height:250px ;
-    margin-left: 100px;
+    margin-left: 0px;
     margin-top: 34px;
 
 }
@@ -3105,7 +3307,7 @@ nav ul li{
 #D3{
     width:450px ;
     height:250px ;
-    margin-left: 100px;
+    margin-left: 0px;
     margin-top: 34px;
 
 
@@ -3116,7 +3318,7 @@ nav ul li{
 #D4{
     width:450px ;
     height:250px ;
-    margin-left: 100px;
+    margin-left: 0px;
     margin-top: 34px;
     margin-bottom: 100px;
 }
@@ -3227,10 +3429,6 @@ nav ul li{
 }
 
 @media screen and (min-width:580px) and (max-width:610px){
-    body{
-        background-color: rgb(226, 80, 255);
-    }
-
     .cabecalho {
         height: 60px;
       }
@@ -3425,11 +3623,16 @@ nav ul li{
     
 }
 
+#alinhamento1{
+    display: flex;
+    justify-content: center;
+}
+
 /*Programação da primeira div*/
 #D1{
     width:450px ;
     height:250px ;
-    margin-left: 60px;
+    margin-left: 0px;
 }
 /*Fim da programação da div*/
 
@@ -3437,7 +3640,7 @@ nav ul li{
 #D2{
     width:450px ;
     height:250px ;
-    margin-left: 60px;
+    margin-left: 0px;
     margin-top: 34px;
 
 }
@@ -3447,7 +3650,7 @@ nav ul li{
 #D3{
     width:450px ;
     height:250px ;
-    margin-left: 60px;
+    margin-left: 0px;
     margin-top: 34px;
 
 
@@ -3458,7 +3661,7 @@ nav ul li{
 #D4{
     width:450px ;
     height:250px ;
-    margin-left: 60px;
+    margin-left: 0px;
     margin-top: 34px;
     margin-bottom: 100px;
 }
@@ -3569,11 +3772,6 @@ nav ul li{
 }
 
 @media screen and (min-width:530px) and (max-width:580px){
-
-    body{
-        background-color: cadetblue;
-    }
-
     .cabecalho {
         height: 60px;
       }
@@ -3768,11 +3966,16 @@ nav ul li{
     
 }
 
+#alinhamento1{
+    display: flex;
+    justify-content: center;
+}
+
 /*Programação da primeira div*/
 #D1{
     width:450px ;
     height:250px ;
-    margin-left: 45px;
+    margin-left: 0px;
 }
 /*Fim da programação da div*/
 
@@ -3780,7 +3983,7 @@ nav ul li{
 #D2{
     width:450px ;
     height:250px ;
-    margin-left: 45px;
+    margin-left: 0px;
     margin-top: 34px;
 
 }
@@ -3790,7 +3993,7 @@ nav ul li{
 #D3{
     width:450px ;
     height:250px ;
-    margin-left: 45px;
+    margin-left: 0px;
     margin-top: 34px;
 
 
@@ -3801,7 +4004,7 @@ nav ul li{
 #D4{
     width:450px ;
     height:250px ;
-    margin-left: 45px;
+    margin-left: 0px;
     margin-top: 34px;
     margin-bottom: 100px;
 }
@@ -3913,11 +4116,6 @@ nav ul li{
 }
 
 @media screen and (min-width:400px) and (max-width:530px){
-
-    body{
-        background-color: rgb(26, 60, 172);
-    }
-
     .cabecalho {
         height: 60px;
       }
@@ -4112,11 +4310,16 @@ nav ul li{
     
 }
 
+#alinhamento1{
+    display: flex;
+    justify-content: center;
+}
+
 /*Programação da primeira div*/
 #D1{
     width:450px ;
     height:250px ;
-    margin-left: 23px;
+    margin-left: 0px;
 }
 /*Fim da programação da div*/
 
@@ -4124,7 +4327,7 @@ nav ul li{
 #D2{
     width:450px ;
     height:250px ;
-    margin-left: 23px;
+    margin-left: 0px;
     margin-top: 34px;
 
 }
@@ -4134,7 +4337,7 @@ nav ul li{
 #D3{
     width:450px ;
     height:250px ;
-    margin-left: 23px;
+    margin-left: 0px;
     margin-top: 34px;
 
 
@@ -4145,7 +4348,7 @@ nav ul li{
 #D4{
     width:450px ;
     height:250px ;
-    margin-left: 23px;
+    margin-left: 0px;
     margin-top: 34px;
     margin-bottom: 100px;
 }
