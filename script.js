@@ -198,6 +198,7 @@ const translations = {
       enviar:"Enviar",
       tF:"ONDE NOS ENCONTRAR",
       tL:"Avenida Angélica, 525 – Bela Vista, São Paulo – SP, 01227-000",
+      copy:"2024 Intybe - Desenvolvedores de Software | Termos de Uso | Políticas de Privacidade",
 
       // Adicionar mais textos conforme necessário
   },
@@ -260,7 +261,8 @@ const translations = {
       l4:"Describe what you want:",
       enviar:"Submit",
       tF:"WHERE FIND US",
-      tL:"Avenue Angélica, 525 – Bela Vista, São Paulo – SP, 01227-000"
+      tL:"Avenue Angélica, 525 – Bela Vista, São Paulo – SP, 01227-000",
+      copy:"2024 Intybe - Software Developers | Terms of Use | Privacy Policies",
 
       // Adicionar mais textos conforme necessário
   }
