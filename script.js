@@ -280,3 +280,22 @@ function translatePage(lang) {
       }
   });
 }
+
+// quando o usuário rolar 20px dps do topo, o botão aparece
+window.onscroll = function() {
+  mostrarBotao();
+};
+
+function mostrarBotao() {
+  var botao = document.getElementById("topoBtn");
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      botao.style.display = "block";
+  } else {
+      botao.style.display = "none";
+  }
+}
+
+// quando o usuário clicar no botão, volta ao topo
+function voltarAoTopo() {
+  document.documentElement.scrollTop = 0; 
+}

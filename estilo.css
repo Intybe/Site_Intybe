@@ -4457,31 +4457,27 @@ justify-content: center;
     margin-left: 190px;
 }
 
-/*botão para voltar ao topo*/
-.btn{
-	display: flex;
-	justify-content: center; 
-	align-items: center;
-	position: fixed;
-	bottom: 10px;
-	right: 10px;
-	width: 50px;
-	height: 50px;
-	background-color: #fff;
-	text-decoration: none;
-	border-radius: 50px 50px 50px 50px;
 }
 
-/*o after serve para aplicar depois*/
-.btn::after {
-	content:"⇧";
-	font-size: 32px;
-	font-weight: bold; 
-	color: #6200EA;
-	transition: margin-top 250ms;
+
+/* botão voltar ao topo*/
+#topoBtn {
+    display: flex;
+    z-index: 9999; /* Garante que fique acima de todos os elementos */
+    justify-content: center; 
+    align-items: center;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 45px; 
+    height: 45px;
+    background-color: #F8F8FF;
+    text-decoration: none;
+    border-radius: 50%; 
+    cursor: pointer; 
+    border-color: #000000;
 }
 
-.btn:hover::after {
-	margin-top:-8px;
-}
+#topoBtn:hover {
+    background-color: #9759FF;
 }
