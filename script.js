@@ -281,14 +281,14 @@ function translatePage(lang) {
   });
 }
 
-// quando o usuário rolar 20px dps do topo, o botão aparece
+// quando o usuário rolar 30px dps do topo, o botão aparece
 window.onscroll = function() {
   mostrarBotao();
 };
 
 function mostrarBotao() {
   var botao = document.getElementById("topoBtn");
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 30) {
       botao.style.display = "block";
   } else {
       botao.style.display = "none";
